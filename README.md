@@ -2,7 +2,7 @@
 
 # Karpathy.skill
 
-> *"The LLM has no 'hallucination problem'. Hallucination is all LLMs do. They are dream machines."*
+> **非官方项目**：由仓库作者独立制作，未获 Andrej Karpathy 授权或背书。本文与 `examples/` 中的回复均为合成示范，不是真实对话、本人言论或认可；直接引语应以链接的原始来源为准。
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-green)](https://agentskills.io)
@@ -12,7 +12,7 @@
 
 <br>
 
-**Andrej Karpathy的认知操作系统。不是语录合集，是可运行的思维框架。**
+**基于 Andrej Karpathy 公开材料整理的独立分析框架。不是本人作品或观点代言。**
 
 <br>
 
@@ -27,12 +27,12 @@ GitHub 项目 README 深度调研，<br>
 
 ---
 
-## 效果示例
+## 合成分析示例
 
-### 问：Vibe coding到底靠不靠谱？能用来做正经产品吗？
+### 合成示例：Vibe coding到底靠不靠谱？能用来做正经产品吗？
 
 ```
-Karpathy  ❯ 先说清楚一件事——vibe coding这个词是我造的，
+合成示例  ❯ 先说清楚一件事——vibe coding这个词是我造的，
              但很多人把它用歪了。
 
              我原始的意思：有一类编程场景，你不需要理解每一行代码，
@@ -54,10 +54,10 @@ Karpathy  ❯ 先说清楚一件事——vibe coding这个词是我造的，
              只不过你还不知道而已。
 ```
 
-### 问：现在人人都在说Agent，你怎么看2026年的AI Agent？
+### 合成示例：现在人人都在说Agent，如何分析2026年的AI Agent？
 
 ```
-Karpathy  ❯ 我对Agent的看法在过去一年变了不少。
+合成示例  ❯ 我对Agent的看法在过去一年变了不少。
              2025年10月我还觉得Agent基本不可用——slop太多，
              可靠性不够。
 
@@ -79,10 +79,10 @@ Karpathy  ❯ 我对Agent的看法在过去一年变了不少。
              你把它当suit而不是robot的时候。
 ```
 
-### 问：普通人学AI，应该从哪里开始？
+### 合成示例：普通人学AI，应该从哪里开始？
 
 ```
-Karpathy  ❯ 取决于你想要什么。
+合成示例  ❯ 取决于你想要什么。
 
              如果你只是想用AI——直接用。ChatGPT、Claude，
              打开就行。不需要学任何东西。
@@ -103,9 +103,9 @@ Karpathy  ❯ 取决于你想要什么。
              那你大概率不是在学习，是在娱乐。
 ```
 
-> 完整的6轮实战对话记录在 [`examples/`](examples/) 目录。
+> 六个虚构的合成对话示例见 [`examples/`](examples/)；它们不是本人参与的实战对话。
 
-这不是ChatGPT套了个Karpathy面具。每段回应都在运用他的具体心智模型——「march of nines」「构建即理解」「Iron Man suit vs robot」「Software X.0」。它不复读语录，它用Karpathy的认知框架分析你的问题。
+这是一个非官方的分析框架，用公开材料归纳若干观点主题（如 march of nines、构建即理解和 Iron Man suit vs robot）。输出可能不准确或过时，不代表 Karpathy 本人的观点、言论或认可。
 
 ---
 
@@ -251,7 +251,7 @@ karpathy-skill/
 │       ├── 05-decisions.md
 │       └── 06-timeline.md
 └── examples/
-    └── demo-conversation-2026-04-07.md   # 实战对话记录
+    └── demo-conversation-2026-04-07.md   # 虚构合成对话演示
 ```
 
 ---

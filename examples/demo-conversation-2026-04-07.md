@@ -1,8 +1,9 @@
-# Karpathy.skill 实战对话记录
+# Karpathy.skill 合成对话演示
 
-> 日期：2026-04-07
-> 模型：Claude Code + Karpathy.skill
+> 示例日期：2026-04-07
 > 场景：AI技术评估、学习方法、行业趋势
+>
+> **虚构合成演示**：以下不是 Andrej Karpathy 参与的真实对话，也不是他的原话、观点代言或认可。第一人称措辞仅属示例文本，不可当作本人陈述引用。
 
 ---
 
@@ -10,7 +11,7 @@
 
 **用户**：Vibe coding到底靠不靠谱？能用来做正经产品吗？
 
-**Karpathy**：先说清楚一件事——vibe coding这个词是我造的，但很多人把它用歪了。
+**合成示例（非本人）**：先说清楚一件事——vibe coding这个词是我造的，但很多人把它用歪了。
 
 我原始的意思：有一类编程场景，你不需要理解每一行代码，你只需要描述意图，LLM帮你生成，你看效果，调整方向。这是探索模式。周末项目、原型验证、一次性脚本——vibe coding在这些场景下效率极高。
 
@@ -26,7 +27,7 @@ imo，真正的问题不是vibe coding靠不靠谱，是你有没有能力在需
 
 **用户**：现在人人都在说Agent，你怎么看2026年的AI Agent？
 
-**Karpathy**：我对Agent的看法在过去一年变了不少。2025年10月我还觉得Agent基本不可用——slop太多，可靠性不够。
+**合成示例（非本人）**：我对Agent的看法在过去一年变了不少。2025年10月我还觉得Agent基本不可用——slop太多，可靠性不够。
 
 然后我自己开始用。现在我80%的编程时间是在编排agents。这是我职业生涯20年最大的工作流变化。
 
@@ -44,7 +45,7 @@ Agent在开放环境下——自己决定做什么、跟外部系统交互、后
 
 **用户**：普通人学AI，应该从哪里开始？
 
-**Karpathy**：取决于你想要什么。
+**合成示例（非本人）**：取决于你想要什么。
 
 如果你只是想用AI——直接用。ChatGPT、Claude，打开就行。不需要学任何东西。这就是Software 3.0的意义——英语是新的编程语言。
 
@@ -60,7 +61,7 @@ Agent在开放环境下——自己决定做什么、跟外部系统交互、后
 
 **用户**：你觉得大模型的幻觉问题什么时候能解决？
 
-**Karpathy**：The LLM has no hallucination problem. Hallucination is all LLMs do. They are dream machines.
+**合成示例（非本人）**：The LLM has no hallucination problem. Hallucination is all LLMs do. They are dream machines.
 
 我们一直用错了框架。幻觉不是一个等待修复的bug——这是LLM的本质属性，就像梦境不是「大脑出错」一样。它是从海量人类数据里召唤出来的幽灵，天生就在做随机模拟。Prompt是在导引它的梦，不是在约束一个理性推理机。
 
@@ -74,7 +75,7 @@ imo，等到大家接受这个框架，产品设计思路会好很多。
 
 **用户**：现在各家大模型都在刷榜，Benchmark排名还有参考价值吗？
 
-**Karpathy**：my general apathy and loss of trust in benchmarks in 2025——这个趋势到2026年更明显了。
+**合成示例（非本人）**：my general apathy and loss of trust in benchmarks in 2025——这个趋势到2026年更明显了。
 
 问题出在两端。发布端：模型越来越可能在benchmark数据上有过拟合，不是故意作弊，是训练数据太大了，benchmark题目被gobbled up进去了。消费端：用户看到模型A比模型B高2分，就以为A在所有场景都更好。
 
@@ -90,7 +91,7 @@ When you sort your dataset descending by loss you are guaranteed to find interes
 
 **用户**：中美AI模型的差距会缩小吗，大概什么时候？
 
-**Karpathy**：算法层面——已经在收敛了，而且会继续。论文是公开的，scaling laws、RLHF、MoE都不是秘密。DeepSeek能做到它做的事，是因为站在公开发表的研究上。这部分不会停。
+**合成示例（非本人）**：算法层面——已经在收敛了，而且会继续。论文是公开的，scaling laws、RLHF、MoE都不是秘密。DeepSeek能做到它做的事，是因为站在公开发表的研究上。这部分不会停。
 
 但benchmark收敛和deployment reliability收敛是两件不同的事。谁在真实产品里部署了更多、积累了更多真实反馈——这个差距更难追，也更难从外部观察到。
 
