@@ -1,4 +1,4 @@
-# Karpathy.skill 实战对话记录
+# Karpathy.skill AI生成示例对话
 
 > 日期：2026-04-07
 > 模型：Claude Code + Karpathy.skill

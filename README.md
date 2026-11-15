@@ -16,6 +16,10 @@
 
 <br>
 
+<sub>非官方项目，未获本人授权或背书；以下示例均为 AI 生成。<br>Unofficial project, not authorized or endorsed by the person it is based on. All examples below are AI-generated.</sub>
+
+<br>
+
 基于 20+ 篇博文（Software 2.0、Recipe for Training Neural Networks 等）、<br>
 Lex Fridman / Dwarkesh Patel 等 16 段深度访谈、100+ 条 X 帖子、<br>
 GitHub 项目 README 深度调研，<br>
@@ -29,7 +33,7 @@ GitHub 项目 README 深度调研，<br>
 
 ## 效果示例
 
-### 问：Vibe coding到底靠不靠谱？能用来做正经产品吗？
+### AI生成示例｜问：Vibe coding到底靠不靠谱？能用来做正经产品吗？
 
 ```
 Karpathy  ❯ 先说清楚一件事——vibe coding这个词是我造的，
@@ -54,7 +58,7 @@ Karpathy  ❯ 先说清楚一件事——vibe coding这个词是我造的，
              只不过你还不知道而已。
 ```
 
-### 问：现在人人都在说Agent，你怎么看2026年的AI Agent？
+### AI生成示例｜问：现在人人都在说Agent，你怎么看2026年的AI Agent？
 
 ```
 Karpathy  ❯ 我对Agent的看法在过去一年变了不少。
@@ -79,7 +83,7 @@ Karpathy  ❯ 我对Agent的看法在过去一年变了不少。
              你把它当suit而不是robot的时候。
 ```
 
-### 问：普通人学AI，应该从哪里开始？
+### AI生成示例｜问：普通人学AI，应该从哪里开始？
 
 ```
 Karpathy  ❯ 取决于你想要什么。
@@ -103,7 +107,7 @@ Karpathy  ❯ 取决于你想要什么。
              那你大概率不是在学习，是在娱乐。
 ```
 
-> 完整的6轮实战对话记录在 [`examples/`](examples/) 目录。
+> 完整的6轮AI生成示例对话在 [`examples/`](examples/) 目录。
 
 这不是ChatGPT套了个Karpathy面具。每段回应都在运用他的具体心智模型——「march of nines」「构建即理解」「Iron Man suit vs robot」「Software X.0」。它不复读语录，它用Karpathy的认知框架分析你的问题。
 
@@ -128,11 +132,13 @@ npx skills add alchaincyf/karpathy-skill
 
 | Runtime | 安装路径 |
 |---|---|
-| Claude Code | `~/.claude/skills/karpathy-skill/` |
-| Codex CLI | `~/.codex/skills/karpathy-skill/` |
-| Cursor | `~/.cursor/skills/karpathy-skill/` |
-| OpenClaw | `~/.openclaw/workspace/skills/karpathy-skill/` |
+| Claude Code | `~/.claude/skills/andrej-karpathy-perspective/` |
+| Codex CLI | `~/.codex/skills/andrej-karpathy-perspective/` |
+| Cursor | `~/.cursor/skills/andrej-karpathy-perspective/` |
+| OpenClaw | `~/.openclaw/workspace/skills/andrej-karpathy-perspective/` |
 | Hermes Agent | 跑该 runtime 的 install 脚本或 clone 到其 skills 目录 |
+
+手动安装时，目录名必须与 `SKILL.md` frontmatter 的 `name` 一致：`andrej-karpathy-perspective`。仓库地址仍是 `alchaincyf/karpathy-skill`。
 
 ```bash
 git clone https://github.com/alchaincyf/karpathy-skill <对应路径>
@@ -251,7 +257,7 @@ karpathy-skill/
 │       ├── 05-decisions.md
 │       └── 06-timeline.md
 └── examples/
-    └── demo-conversation-2026-04-07.md   # 实战对话记录
+    └── demo-conversation-2026-04-07.md   # AI生成示例对话
 ```
 
 ---
